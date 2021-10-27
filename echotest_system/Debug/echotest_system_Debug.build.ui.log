@@ -1,0 +1,10 @@
+2021-10-25T19:44:34.447263700255-19:44:34 **** Build of configuration Debug for project echotest_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 62103 C:/Users/c.eguzo/Desktop/C-EGUZO-PHD-FZ/GENERAL/Udacity_project/ADC_Project/deletefolder/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm domain_ps7_cortexa9_0 C:/Users/c.eguzo/Desktop/C-EGUZO-PHD-FZ/GENERAL/Udacity_project/ADC_Project/deletefolder/echotest_system/Debug/system.bif
+000-sdcard_gen --xpfm C:/Users/c.eguzo/Desktop/C-EGUZO-PHD-FZ/GENERAL/Udacity_project/ADC_Project/deletefolder/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif C:/Users/c.eguzo/Desktop/C-EGUZO-PHD-FZ/GENERAL/Udacity_project/ADC_Project/deletefolder/echotest_system/Debug/system.bif --bitstream C:/Users/c.eguzo/Desktop/C-EGUZO-PHD-FZ/GENERAL/Udacity_project/ADC_Project/deletefolder/echotest/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/c.eguzo/Desktop/C-EGUZO-PHD-FZ/GENERAL/Udacity_project/ADC_Project/deletefolder/echotest/Debug/echotest.elf,ps7_cortexa9_0
+000-creating BOOT.BIN using C:/Users/c.eguzo/Desktop/C-EGUZO-PHD-FZ/GENERAL/Udacity_project/ADC_Project/deletefolder/echotest/_ide/bitstream/design_1_wrapper.bit
+000-Running C:/Xilinx/Vitis/2020.1/bin/bootgen  -image C:/Users/c.eguzo/Desktop/C-EGUZO-PHD-FZ/GENERAL/Udacity_project/ADC_Project/deletefolder/echotest_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+19:44:51 Build Finished (took 17s.387ms)
+

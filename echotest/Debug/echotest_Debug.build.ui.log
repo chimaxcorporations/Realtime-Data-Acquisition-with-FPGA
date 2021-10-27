@@ -1,0 +1,25 @@
+2021-10-27T11:39:40.570496200255-11:39:40 **** Incremental Build of configuration Debug for project echotest ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/webserver.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/c.eguzo/Desktop/C-EGUZO-PHD-FZ/GENERAL/Udacity_project/ADC_Project/deletefolder/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.o" -o "src/webserver.o" "../src/webserver.c"
+000-'Finished building: ../src/webserver.c'
+000-' '
+000-'Building target: echotest.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/c.eguzo/Desktop/C-EGUZO-PHD-FZ/GENERAL/Udacity_project/ADC_Project/deletefolder/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bsplib/lib -o "echotest.elf"  ./src/echo.o ./src/iic_phyreset.o ./src/main.o ./src/webserver.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+000-'Finished building target: echotest.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size echotest.elf  |tee "echotest.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 168592	   3432	5363776	5535800	 547838	echotest.elf
+000-'Finished building: echotest.elf.size'
+000-' '
+00255-
+11:39:47 Build Finished (took 6s.869ms)
+

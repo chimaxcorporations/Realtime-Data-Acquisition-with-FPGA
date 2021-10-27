@@ -1,0 +1,9 @@
+TRACE::2021-10-25.19:44:40::SCWBifWriter::Found the complete platform C:/Users/c.eguzo/Desktop/C-EGUZO-PHD-FZ/GENERAL/Udacity_project/ADC_Project/deletefolder/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2021-10-25.19:44:40::SCWBifWriter::hardware databse : design_1_wrapper_1
+TRACE::2021-10-25.19:44:40::SCWBifWriter::bitstream found in the design
+TRACE::2021-10-25.19:44:40::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2021-10-25.19:44:40::SCWBifWriter::proc type : 
+TRACE::2021-10-25.19:44:40::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2021-10-25.19:44:40::SCWBifWriter::Device type is : zynq
+TRACE::2021-10-25.19:44:40::SCWBifWriter::Writing BIF to file : C:/Users/c.eguzo/Desktop/C-EGUZO-PHD-FZ/GENERAL/Udacity_project/ADC_Project/deletefolder/echotest_system/Debug/system.bif
+TRACE::2021-10-25.19:44:40::SCWBifWriter::Writing the Zynq Baremetal bif 
